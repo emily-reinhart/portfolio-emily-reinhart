@@ -1,9 +1,9 @@
 import React from 'react';
-import candy from '../imgs/candy-nav-clr-sqr.png';
-import cookbook from '../imgs/screencapture-cookbook-home-sq.png';
-import pattern from '../imgs/pattern-gallery2-sqr.png';
-import movie from '../imgs/screencapture-react-movie.png';
-import todo from '../imgs/todo-list-sqr.png';
+import candy from '../imgs/candy-nav-clr-sqrTiny.png';
+import cookbook from '../imgs/screencapture-cookbook-home-sqTiny.png';
+import pattern from '../imgs/pattern-gallery2-sqrTiny.png';
+import movie from '../imgs/screencapture-react-movieTiny.png';
+import todo from '../imgs/todo-list-sqrTiny.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';

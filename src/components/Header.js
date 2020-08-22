@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from '../imgs/emily-square.JPG';
+import profileImg from '../imgs/emily-squareTiny.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
 
