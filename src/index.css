@@ -52,6 +52,10 @@ body {
 .nav-link {
 	float: right;
 }
+.nav-link:focus {
+	outline: none;
+	background-color: var(--clr-accent-light);
+}
 .nav-link a {
 	display: block;
 	color: var(--clr-dark);
@@ -62,6 +66,10 @@ body {
 	transition: 1s ease;
 }
 .nav-link a:hover {
+	background-color: var(--clr-accent-light);
+}
+.nav-link a:focus {
+	outline: none;
 	background-color: var(--clr-accent-light);
 }
 
@@ -120,6 +128,12 @@ body {
 	color: var(--clr-accent-dark);
 	transition: 1s ease;
 }
+.buttons a:focus {
+	outline: none;
+	border-radius: 10px;
+	background-color: var(--clr-accent-dark);
+	color: var(--clr-light);
+}
 .buttons a:hover {
 	border-radius: 10px;
 	background-color: var(--clr-accent-dark);
@@ -137,6 +151,10 @@ body {
 	transition: 1s ease;
 }
 .down-arrow svg:hover {
+	color: var(--clr-accent-dark);
+}
+.down-arrow svg:focus {
+	outline: none;
 	color: var(--clr-accent-dark);
 }
 
@@ -193,10 +211,14 @@ body {
 	border-radius: 10px;
 	cursor: pointer;
 }
-.showMore button:active {
+.showMore button:hover {
 	color: var(--clr-dark);
-	background: var(--clr-accent-light);
-	border: 2px solid var(--clr-accent-light);
+	background: var(--clr-light);
+}
+.showMore button:focus {
+	outline: none;
+	color: var(--clr-dark);
+	background: var(--clr-light);
 }
 .overlay {
 	position: absolute;
@@ -303,6 +325,18 @@ body {
 	border: 2px solid var(--clr-accent-light);
 	background: var(--clr-accent-light);
 	border-radius: 10px;
+}
+.footer li:focus {
+	outline: none;
+	border: 2px solid var(--clr-accent-light);
+	background: var(--clr-accent-light);
+	border-radius: 10px;
+}
+.footer li a:focus {
+	outline: none;
+}
+.footer li a svg:focus {
+	outline: none;
 }
 #contact:target li {
 	border: 2px solid var(--clr-accent-light);
