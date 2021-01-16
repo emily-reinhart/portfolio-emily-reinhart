@@ -14,7 +14,7 @@ const Header = () => {
 						<h2>Front-End Dev</h2>
 					</div>
 					<div className="buttons">
-						<a href="https://drive.google.com/file/d/1Pvq-XW4229OWU8X9R2y-D7yFnY2PfNjQ/view?usp=sharing">
+						<a href="https://drive.google.com/file/d/1PLOIHm0eDe90SjVLWHJ8T1cZLnPSOJgO/view?usp=sharing">
 							Resume
 						</a>
 						<a href="#projects">My Work</a>
