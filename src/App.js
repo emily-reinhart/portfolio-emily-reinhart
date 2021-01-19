@@ -1,19 +1,20 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { Fragment } from 'react';
 import Nav from './components/Nav';
-import Header from './components/Header';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Footer from './components/Footer';
+import { Switch, Route } from 'react-router-dom';
+import Main from './components/Main';
+import Resume from './components/Resume';
 
 function App () {
 	return (
 		<Fragment>
-			<Nav />
-			<Header />
-			<Projects />
-			<Skills />
-			<Footer />
+			<Nav></Nav>
+			<Switch>
+				<Route exact path="/" component={Main} />
+				<Route path="/resume" component={Resume} />
+			</Switch>
 		</Fragment>
+		
 	);
 }
 

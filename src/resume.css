@@ -1,0 +1,37 @@
+.container {
+	width: 60%;
+	margin: 50px auto;
+}
+h2 {
+	font-size: var(--fs-h2);
+}
+h3 {
+	font-size: var(--fs-h3);
+}
+p,
+li,
+em {
+	font-size: var(--fs-body);
+	letter-spacing: 0.8px;
+	line-height: 2rem;
+}
+
+.header {
+	text-align: center;
+}
+.header,
+.education,
+.work,
+.resume-projects {
+	padding: auto;
+	padding-top: 2rem;
+}
+ul {
+	margin-left: 2.5rem;
+}
+hr {
+	border: none;
+	border-bottom-width: 1.5px;
+	border-bottom-style: solid;
+	margin: 2px auto 5px auto;
+}

@@ -119,6 +119,7 @@ body {
 }
 .buttons a {
 	font-size: var(--fs-body);
+	font-family: var(--ff-primary);
 	text-decoration: none;
 	padding: 1rem;
 	margin: 2rem auto;
@@ -138,6 +139,10 @@ body {
 	border-radius: 10px;
 	background-color: var(--clr-accent-dark);
 	color: var(--clr-light);
+}
+.buttons button {
+	border: none;
+	background: none;
 }
 .down-arrow {
 	margin-top: 2rem;
