@@ -10,7 +10,8 @@ h3 {
 }
 p,
 li,
-em {
+em,
+a {
 	font-size: var(--fs-body);
 	letter-spacing: 0.8px;
 	line-height: 2rem;

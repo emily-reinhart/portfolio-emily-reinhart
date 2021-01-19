@@ -6,7 +6,7 @@ const Resume = () => {
         <div className="container">
             <div className="header">
                 <h2>Emily Reinhart</h2>
-                <p href="mailto:emily.reinhart@utexas.edu">emily.reinhart@utexas.edu</p>
+                <p><a href="mailto:emily.reinhart@utexas.edu">emily.reinhart@utexas.edu</a></p>
                 <p>Austin, Texas</p>
             </div>
             <div className="education">
