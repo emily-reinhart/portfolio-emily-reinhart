@@ -1,20 +1,21 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 const Nav = () => {
 	return (
 		<nav className="navbar">
 			<ul className="nav-links">
 				<li className="nav-link">
-					<a href="./#contact">Contact</a>
+					<HashLink to="../#contact">Contact</HashLink>
 				</li>
 				<li className="nav-link">
-					<a href="./#skills">Skills</a>
+					<HashLink to="../#skills">Skills</HashLink>
 				</li>
 				<li className="nav-link">
-					<a href="./#projects">Projects</a>
+					<HashLink to="../#projects">Projects</HashLink>
 				</li>
 				<li className="nav-link">
-					<a href="./#home">Home</a>
+					<HashLink to="../#home">Home</HashLink>
 				</li>
 			</ul>
 		</nav>

@@ -3,6 +3,7 @@ import profileImg from '../imgs/emily-squareTiny.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
 	return (
@@ -19,8 +20,8 @@ const Header = () => {
 							Resume
 						</a> */}
 						<button><Link to='/resume'>Resume</Link></button>
-						<a href="#projects">My Work</a>
-						<a href="#contact">Contact</a>
+						<button><HashLink to="#projects">My Work</HashLink></button>
+						<button><HashLink to="#contact">Contact</HashLink></button>
 					</div>
 
 					<div className="profile-img">

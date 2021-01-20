@@ -117,7 +117,8 @@ body {
 	grid-area: 3 / 1 / 4 / 3;
 	margin: auto 5rem;
 }
-.buttons a {
+.buttons a,
+.buttons button {
 	font-size: var(--fs-body);
 	font-family: var(--ff-primary);
 	text-decoration: none;
@@ -134,6 +135,9 @@ body {
 	border-radius: 10px;
 	background-color: var(--clr-accent-dark);
 	color: var(--clr-light);
+}
+.buttons button:focus {
+	outline: none;
 }
 .buttons a:hover {
 	border-radius: 10px;

@@ -1,19 +1,20 @@
 import React from 'react';
 import { Fragment } from 'react';
-import Nav from './components/Nav';
 
 import Main from './components/Main';
 import Resume from './components/Resume';
-import { Switch, Route, } from 'react-router'
+import { Route, Switch } from 'react-router-dom';
+import Nav from './components/Nav';
+
 
 function App () {
 	return (
 		<Fragment>
 			<Nav></Nav>
 			<Switch>
-			<Route exact path="/" component={Main} />
- 			<Route path="/resume" component={Resume} />
-			</Switch>
+				<Route exact path="/" component={Main} />
+				<Route path="/resume" component={Resume} />
+			</Switch>				
 		</Fragment>		
 	);
 }
