@@ -26,11 +26,11 @@ const Resume = () => {
                 <div>
                     <p style={{float: 'right'}}>Oct 2020 - Current</p>
                     <p style={{fontWeight: '700'}}>Orlando O Spencer I Inc.</p>
-                    <p><em>Full-Stack Web Developer Intern</em></p>
+                    <p><em>Front-End Web Developer</em></p>
                     <ul>
                         <li>Translated designs into code to create front-end applications using Angular</li>
-                        <li>Designed color schemes to improve website accessibility and user experience</li>
-                        <li>Analyzed existing code to improve usability and resolve bugs</li>
+                        <li>Designed color schemes to comply with Web Content Accessibility Guidelines and  improve user experience</li>
+                        <li>Analyzed existing code to detect and resolve issues others have missed</li>
                         <li>Maintained a MongoDB database by utilizing RESTful API methods on a NodeJS server</li>
                         <li>Collaborated with other developers and designers to maintain unity throughout all parts of the development</li>
                     </ul>
